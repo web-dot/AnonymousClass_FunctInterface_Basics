@@ -1,4 +1,4 @@
-package com.streams.test;
+package com.lambda.test;
 
 public class Candidate {
 	private String name;

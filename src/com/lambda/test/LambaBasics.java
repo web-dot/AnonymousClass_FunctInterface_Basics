@@ -1,4 +1,4 @@
-package com.streams.test;
+package com.lambda.test;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,7 +18,7 @@ class EligiblesCount implements Eligibles{
 
 
 
-public class StreamTest {
+public class LambaBasics {
 	
 	/**
 	 * static method
