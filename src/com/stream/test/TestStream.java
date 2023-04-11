@@ -91,5 +91,11 @@ public class TestStream {
 		.filter(x -> x.length() > 11)
 		.forEach(System.out::println);
 		
+		List<String> bands2 = Files.lines(Paths.get("C:/Users/fedev/OneDrive/Documents/eclipse_workspaces/primary_workspace/StreamsApi/src/com/stream/bands.txt"))
+				.filter(x -> x.contains("The"))
+				.collect(Collectors.toList());
+		
+		bands2.forEach(System.out::println);
+		
 	}
 }
